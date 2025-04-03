@@ -26,8 +26,8 @@ Each service is containerized using Docker and deployed to Kubernetes as a Deplo
 ```bash
 docker build -t <your-dockerhub-username>/product-service ./Product-Service
 docker build -t <your-dockerhub-username>/order-service ./Order-Service
-docker build -t <your-dockerhub-username>/payment-service ./Payment-Service```
-
+docker build -t <your-dockerhub-username>/payment-service ./Payment-Service
+```
 
 2. **Push Images to Docker Hub** :
 
